@@ -1,0 +1,26 @@
+/* 32 x 32 */
+#header-global H1{
+  background-image: url(http://i.imgur.com/4arFbfp.png) !important;
+                    /* Site icon */
+}
+/* Back and fore layers are swapped here, you can
+   play with layers until it looks the way you want.
+*/
+#browser .content-videos{
+  background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
+                              /* Fore image */
+           /* Bottom layer */ url(http://i.imgur.com/F7Nynqc.png) center center/529px 434px no-repeat !important;
+                              /* Back image, position, size, repeat */
+}
+
+#room-main-player-container-soundcloud,
+.SCplayerImage{
+  background: /* Top layer */ url(http://i.imgur.com/F7Nynqc.png) center center/80% 80% no-repeat,
+                              /* Fore image, position, size, repeat */
+              /* 2nd layer */ linear-gradient(to top,
+                                 rgba(30, 41, 66, 0.70) 0%,
+                                 rgba(30, 41, 66, 0.70) 100%),
+                              /* Hack for adding a BG colour in the middle, colours bottom layer somewhat */
+           /* Bottom layer */ rgb(30, 41, 66) url(http://i.imgur.com/0sxhBUn.png) !important;
+                              /* Backing colour, backing image */
+}
