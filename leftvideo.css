@@ -9,4 +9,6 @@
         border-radius: 0 1rem 1rem 0;
     }
     #main_player .player_header span.edit-room { float: left; padding: 1px 4px 0 0; }
+    
+    #main_player .player_header span:nth-child(2) { margin-top: 8px !Important; }
 }
