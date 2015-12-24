@@ -145,8 +145,8 @@ LI[class^='user'].deleted-message{
 
   /* Gap removal */
 #chat .ps-container{
-  top: -3px !Important;
-  height: calc(100% + 3px) !important;
+  top: -4px !Important;
+  height: calc(100% + 4px) !important;
 }
 
 #main_avatar_room{
@@ -213,7 +213,7 @@ LI.deleted-message{
 }
 
 .avatar_tools{
-  border-bottom: 1px solid rgb(135, 140, 142) !important;
+  border-bottom: 1px solid rgb(29, 69, 110) !important;
 }
 
 .deleted-message .timeago{
