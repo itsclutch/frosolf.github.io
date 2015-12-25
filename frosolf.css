@@ -27,9 +27,9 @@
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
   /* Additions by @heebeejeebees */
-@import url("https://hebgbs.github.io/nullstuff"); /* Contributions by @null */
-@import url("https://hebgbs.github.io/pmontop"); /* PMs always on top */
-@import url("https://hebgbs.github.io/rainbowstuff"); /* Rainbow sliders and progress bars */
+@import url("https://hebgbs.github.io/nullstuff.css"); /* Contributions by @null */
+@import url("https://hebgbs.github.io/pmontop.css"); /* PMs always on top */
+@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders and progress bars */
   /* Contributions specific to @frosolf */
 @import url("https://frosolf.github.io/mixercore.css"); /* Chillout Mixer core theme */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
