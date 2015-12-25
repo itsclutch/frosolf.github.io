@@ -279,7 +279,7 @@ A.dubdown:hover SPAN,
 
 .ps-scrollbar-y-rail,
 .ui-slider-horizontal,
-#player-controller A:not(.voted):hover,
+#player-controller A:hover,
 .playerPreview .progressContainer{
   background-color: rgb(22, 31, 49) !important;
 }
@@ -384,6 +384,7 @@ A.dubup.voted,
 }
 
 #new-messages-counter,
+.message-counter,
 .message-item.new-message:before,
 .close-browser,
 .display-sidebar,
@@ -391,7 +392,7 @@ A.dubup.voted,
 .create-playlist-form .icon-createplaylist,
 .create-playlist-input .icon-add,
 .ui-slider-range-min,
-.message-counter,
+.add-to-playlist-button.grabbed,
 .play-song-link .queue-info,
 .progressBg,
 .playerPreview .progress,
