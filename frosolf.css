@@ -31,6 +31,7 @@
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://frosolf.github.io/rainbowmixerlite.css"); /* Rainbow stuff for Chillout Mixer (half-mod) */
 @import url("https://frosolf.github.io/siteimgs.css"); /* Background images (Parted from mixercore) */
-@Import url("https://frosolf.github.io/usrprefs.css"); /* User-specific settings (Better chat improves some of this) */
-  /* Code of unknown origin */
 @import url("https://frosolf.github.io/leftvideo.css"); /* Video to the left */
+@Import url("https://frosolf.github.io/usrprefs.css"); /* User-specific settings (Better chat improves some of this) */
+  /* Special */
+@import url("https://frosolf.github.io/xmas.css"); /* Christmas */
