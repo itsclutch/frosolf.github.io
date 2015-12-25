@@ -22,11 +22,11 @@
   /* Original importa */
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
 @import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
+@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
   /* Imports that required no editing */
 @import url("https://hebgbs.github.io/nullstuff"); /* Contributions by @null */
 @import url("https://hebgbs.github.io/pmontop"); /* PMs always on top */
   /* Contributions specific to @frosolf */
-@import url("https://hebgbs.github.io/voteicons.css"); /* NB3 Vote Icons (modded) */
 @import url("https://frosolf.github.io/mixercore.css"); /* Chillout Mixer core theme */
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://frosolf.github.io/rainbowmixerlite.css"); /* Rainbow stuff for Chillout Mixer (half-mod) */
