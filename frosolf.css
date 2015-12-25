@@ -19,13 +19,13 @@
 */
   
 /* Imports */
-  /* Original importa */
+  /* Original & from netox's NB3 style */
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
 @import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
 @import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
-  /* Imports that required no editing */
+  /* Required no editing */
 @import url("https://hebgbs.github.io/nullstuff"); /* Contributions by @null */
 @import url("https://hebgbs.github.io/pmontop"); /* PMs always on top */
   /* Contributions specific to @frosolf */
@@ -36,4 +36,4 @@
 @import url("https://frosolf.github.io/leftvideo.css"); /* Video to the left */
 @Import url("https://frosolf.github.io/usrprefs.css"); /* User-specific settings (Better chat improves some of this) */
   /* Special */
-@import url("https://frosolf.github.io/xmas.css"); /* Christmas */
+@import url("https://frosolf.github.io/xmas.css"); /* NB3 Christmas */
