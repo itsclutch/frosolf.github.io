@@ -1,5 +1,5 @@
 /* For Christmas, if using community theme */
 
 #chat .stream-item-content:before{
-  padding-left: 16px !Important;
+  margin-left: 16px !Important;
 }
