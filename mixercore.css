@@ -285,11 +285,9 @@ A.dubdown:hover SPAN,
 }
 
 #roomFormUpdate,
-#header-global,
 #warning,
 .loading-el,
 #private-messages .search-results:before,
-#player-controller .left,
 #browser .browser-content,
 #browser .playlist_info,
 #browser .queue_info,
@@ -299,6 +297,10 @@ A.dubdown:hover SPAN,
 .container,
 .tinner{
   background-color: rgb(30, 41, 66) !important;
+}
+.infoContainerInner,
+#player-controller .left .imgEl{
+  background-color: rgba(30, 41, 66, 0.60) !important;
 }
 .for_content,
 A.close-menu,
@@ -310,6 +312,9 @@ A.close-menu,
 .playerPreview,
 .playerPreview .close{
   background-color: rgba(30, 41, 66, 0.80) !Important;
+}
+#header-global{
+  background-color: rgba(30, 41, 66, 0.90) !Important;
 }
 
 .ps-scrollbar-y,
@@ -677,6 +682,8 @@ HEADER FIGURE,
 .message-header,
 .message-details,
 #main-message-list,
+#player-controller,
+#player-controller .left,
 #browser .browser-content-header,
 #browser .actions A,
 .close-import-playlist,
