@@ -5,7 +5,7 @@
 .player_header SPAN,
 .eta_tooltip,
 .message-item,
-#browser .browser-content,
+#browser .browser-content,main
 .playerPreview .progressContainer *{
   opacity: 1 !important;
 }
@@ -355,7 +355,6 @@ A.dubup.voted,
   background-color: rgba(50, 60, 83, 0.70) !important;
 }
 
-#main-loading,
 .loading,
 .buffering,
 .playerPreview .player:hover .replay,
@@ -422,6 +421,12 @@ A.dubdown.voted,
 }
 
   /* Images & gradients */
+#main-loading{
+  background-image: linear-gradient(to bottom,
+                                    transparent 66px,
+                                    rgb(29, 69, 110) 66px,
+                                    rgb(29, 69, 110) 100%) !important;
+
 .room-item{
   background-image: linear-gradient(to top,
                                     rgba(50, 60, 83, 0.80) 36px,
@@ -671,6 +676,7 @@ HEADER FIGURE,
   outline-style: none !Important;
 }
 
+#main-loading,
 .loading-el,
 .room-item,
 .room-item .current-song,
