@@ -706,7 +706,6 @@ HEADER FIGURE,
 }
 
 #main-loading .spinner,
-.soundcloud IMG,
 .chat-option-buttons i,
 .playerPreview:not(:hover) .close{
   display: none !Important;
