@@ -10,7 +10,7 @@
 #browser .content-videos{
   background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
                               /* Fore image */
-           /* Bottom layer */ url(http://i.imgur.com/JhiWmZ8.png) center center/1000px 1000px no-repeat !important;
+           /* Bottom layer */ url(http://i.imgur.com/JhiWmZ8.png) center center/900px 900px no-repeat !important;
                               /* Back image, position, size, repeat */
 }
 
