@@ -1,0 +1,712 @@
+/* Opacity settings */
+#main-loading,
+.loading,
+#new-messages-counter,
+.player_header SPAN,
+.eta_tooltip,
+.message-item,
+#browser .browser-content,main
+.playerPreview .progressContainer *{
+  opacity: 1 !important;
+}
+
+#main-menu-left A:not(:hover),
+#main-menu-right A SPAN:not(:hover),
+.videoquality-el:not(.active-hd):not(:hover),
+.mod-controllers-headers A:not(:hover):not(.active),
+#browser .sidebar LI:not(:hover):not(.selected),
+.content-videos LI .preview:not(:hover),
+#browser .playlist-type-select SPAN:not(:hover),
+#user_popover .usercontent:not(:hover) H3,
+#user_popover .ban:not(:hover) INPUT,
+.tcontent P:nth-child(2) A:not(:hover),
+.tcontent P:last-child A:not(:first-child):not(:hover){
+  opacity: 0.7 !Important;
+}
+
+.deleted-message IMG{
+  opacity: 0.5 !Important;
+}
+
+/* text stuff */
+SPAN.import-playlist.icon-inbox{
+  font-family: proxima nova, sans-serif !Important;
+}
+
+SPAN.import-playlist.icon-inbox:before{
+  font-family: icomoon !Important;
+}
+
+#user_popover .ban INPUT{
+  text-align: center !Important;
+}
+
+#chat .chat-welcome-message,
+.room-info-display-container SPAN,
+.autolink,
+.room-item HEADER{
+  font-weight: normal !important;
+}
+
+.room-info-display-container SPAN I,
+#user_popover .ban,
+#addToPlaylistFloatContainer .playlist-list-action LI{
+  font-weight: bold !Important;
+}
+
+#d3vs-playlist-import-btn{
+  font-size: 18px !important;
+}
+
+  /* Colors */
+INPUT,
+TEXTAREA,
+P,
+#header_login A,
+#main-loading,
+.loading,
+.buffering,
+#warning BUTTON,
+.room-lobby-header A,
+.room-item .user-count *,
+.room-item .current-song,
+#roomFormUpdate H3,
+#roomFormUpdate .mid *:not(LABEL),
+#roomFormUpdate BUTTON,
+.message-counter,
+.lobby-link,
+#main-room-active-link,
+.header-right-navigation SPAN,
+#mobile-room-menu A,
+.player_header SPAN,
+.player_sharing,
+.eta_tooltip,
+.videoquality-el.active-hd,
+.mod-controllers-headers A.active,
+.mods-controller-container .chat-command-list .actions,
+.mods-controller-container H2,
+.room-info-display-container H2,
+.room-info-display-container .description,
+.play-song-link .queue-info,
+.play-song-link *,
+#user_popover .dubs,
+.browser-content-header *:not(.close-browser),
+#browser .playlist_info A,
+#browser .queue_info A,
+#results_video_api,
+#browser .text-button,
+#browser .actions A:not(.remove_icon) SPAN,
+#browser .actions .remove_icon:not(:hover) SPAN,
+#browser .display-success,
+#browser .import-playlist *,
+SPAN.import-playlist, 
+.icon-createplaylist,
+#import-playlist-container H3,
+#import-playlist-container SELECT,
+#player-controller .currentSong,
+#player-controller .icon-playlist,
+#player-controller .display-browser *,
+#player-controller A:not(:hover),
+#player-controller A:not(:hover) SPAN,
+.currentTime,
+.icon-heart:before,
+.container *,
+.tinner H1,
+.tinner H2,
+.tinner P
+{
+  color: rgb(238, 238, 238) !important;
+}
+  /* Colour for DubX button */
+.header-right-navigation .for IMG{
+  filter: brightness(93.33%) !Important;
+}
+
+.create-playlist-form .icon-createplaylist,
+.create-playlist-input .icon-add{
+  color: rgb(0, 0, 0) !important;
+}
+
+.room-item .room-user,
+.message-header A,
+.message-list LI H3,
+.isVip .username,
+.vip .username,
+.vip .username:after,
+.isResdient-dj .username,
+.resident-dj .username,
+.resident-dj .username:after,
+.manager .username,
+.isManager .username,
+.manager .username:after,
+.mod .username,
+.isMod .username,
+.mod .username:after,
+.for_content_version{
+  color: rgb(92, 135, 179) !important;
+}
+
+.creator .username,
+.creator .username:after,
+.co-owner .username,
+.isCo-owner .username,
+.co-owner .username:after{
+  color: rgb(107, 160, 214) !Important;
+}
+
+.room-item HEADER .name,
+.room-item .room-user A,
+#roomFormUpdate LABEL,
+#main-menu-left A,
+#main-room-active-link .icon-chevron,
+.room-info-display-container SPAN I,
+.username-handle,
+.videoquality-el,
+.mod-controllers-headers A,
+.mods-controller-container H2 SPAN,
+.mods-controller-container .chat-command-list LI,
+.mods-controller-container .user-list LI:hover,
+.mods-controller-container .user-list .actions:hover,
+#chat .chat-welcome-message,
+.chat-option-header,
+.chat-option-buttons *:hover,
+#player-controller .currentDJSong,
+#browser .playlist_info A:not(.text-button):hover,
+#browser .queue_info A:not(.text-button):hover,
+#browser .actions A:not(.remove_icon):hover SPAN,
+#browser .content-videos LI:hover H2,
+#browser .content-videos LI.selected H2,
+#browser .content-videos LI.selected .timeDisplay,
+#browser .playedby,
+#browser .sidebar .title,
+#browser .sidebar LI SPAN,
+#browser .sidebar LI,
+.content-videos LI .preview,
+.content-videos LI .dubs-display,
+#browser .playlist-type-select SPAN,
+#user_popover .usercontent H3,
+#user_popover A:hover,
+#user_popover .ban INPUT,
+#addToPlaylistFloatContainer .create-playlist-header,
+#addToPlaylistFloatContainer .playlist-list-action LI:hover
+.for_content_ver,
+.for_content_c,
+.tinner A{
+  color: rgb(255, 204, 229) !important;
+}
+.chat-option-buttons *,
+.mods-controller-container .user-list *,
+#user_popover A,
+#addToPlaylistFloatContainer .playlist-list-action LI{
+  color: rgba(255, 204, 229, 0.70) !important;
+}
+
+.room-info-display-container SPAN,
+#player-controller A.add-to-playlist-button:hover .icon-heart:before,
+#player-controller A.add-to-playlist-button:hover .grab-counter,
+.content-videos .actions .add_to_playlist:hover .icon-heart:before,
+:not(.creator):not(.co-owner):not(.manager):not(.mod).currentDJ .username:after,
+.dj P:after,
+.username{
+  color: rgb(255, 102, 178) !important;
+}
+
+A.dubup:hover SPAN{
+  color: rgb(153, 0, 76) !important;
+}
+
+#chat .chat-system-loading,
+.timeago{
+  color: rgb(204, 0, 102) !important;
+}
+
+#warning H3,
+.icon-close,
+#main-menu-left A.logout-link:hover,
+.icon-eye-blocked:hover,
+.icon-eye-unblocked,
+.icon-sound-alt:hover,
+.icon-mute,
+A.close-menu SPAN,
+.system,
+.deleted-message P,
+A.dubdown:hover SPAN,
+#browser .queue_info A:hover.icon-unlocked,
+.content-videos .actions .remove_icon:hover SPAN,
+#browser .playlist_info A:hover.icon-trash,
+#browser .display-error,
+#user_popover .actions A:hover:nth-child(-n+3),
+#user_popover .ban:hover INPUT,
+.check_username_info.error,
+.container .cancel:hover P{
+  color: rgb(255, 45, 49) !important;
+}
+
+.admin .username,
+.admin .username:after{
+  color: rgb(0, 255, 255) !important;
+}
+
+.autolink{
+  color: rgb(0, 155, 255) !important;
+}
+
+.room-lobby-header .facebook,
+.room-lobby-header .twitter,
+.player_sharing .icon-facebook,
+.player_sharing .icon-twitter,
+#main-menu-left .social-links SPAN{
+  color: rgba(255, 204, 229, 0.30) !important;
+}
+
+.room-lobby-header .facebook:hover,
+.player_sharing .icon-facebook:hover,
+#main-menu-left .icon-facebook:hover{
+  color: rgb(59, 87, 157) !Important;
+}
+
+.room-lobby-header .twitter:hover,
+.player_sharing .icon-twitter:hover,
+#main-menu-left .icon-twitter:hover{
+  color: rgb(28, 173, 235) !Important;
+}
+
+/* Backgrounds */
+  /* Colors */
+.ui-slider-handle{
+  background-color: rgb(238, 238, 238) !important;
+}
+
+.ps-scrollbar-y-rail,
+.ui-slider-horizontal,
+#player-controller A:hover,
+.playerPreview .progressContainer{
+  background-color: rgb(51, 0, 25) !important;
+}
+
+#roomFormUpdate,
+#warning,
+.loading-el,
+#private-messages .search-results:before,
+#browser .browser-content,
+#browser .playlist_info,
+#browser .queue_info,
+#browser .sidebar,
+#import-playlist-container,
+#user_popover,
+.container,
+.tinner{
+  background-color: rgb(153, 0, 76) !important;
+}
+.infoContainerInner,
+#player-controller .left .imgEl{
+  background-color: rgba(153, 0, 76, 0.60) !important;
+}
+.for_content,
+A.close-menu,
+#browser .content-videos LI{
+  background-color: rgba(153, 0, 76, 0.70) !important;
+}
+
+#addToPlaylistFloatContainer,
+.playerPreview,
+.playerPreview .close{
+  background-color: rgba(153, 0, 76, 0.80) !Important;
+}
+#header-global{
+  background-color: rgba(153, 0, 76, 0.90) !Important;
+}
+
+.ps-scrollbar-y,
+TEXTAREA,
+#warning BUTTON,
+#room-search,
+.playerPreview .player .replay,
+#roomFormUpdate INPUT,
+#roomFormUpdate SELECT,
+#roomFormUpdate BUTTON,
+A.dubup.voted,
+#new-message-input,
+.browser-content-header INPUT,
+#browser .music-type-select,
+#browser .music-type-dropdown,
+#browser .text-button,
+#browser .playlist_info A,
+#browser .queue_info A,
+#browser .sidebar .create-playlist,
+#browser .import-playlist,
+#import-playlist-container DIV INPUT,
+#import-playlist-container SELECT,
+.playerPreview .loaded,
+.container .title,
+.container .control DIV,
+#d3vs-playlist-import-name,
+#d3vs-playlist-import-code,
+#d3vs-playlist-import-btn{
+  background-color: rgb(102, 0, 51) !important;
+}
+.player_header SPAN,
+.mods-controller-container .skip-el,
+.edit-btn,
+#metamod-btn{
+  background-color: rgba(102, 0, 51, 0.80) !important;
+}
+#autocomplete-preview LI{
+  background-color: rgba(102, 0, 51, 0.70) !important;
+}
+
+.loading,
+.buffering,
+.playerPreview .player:hover .replay,
+.room-lobby-header,
+#warning BUTTON:hover,
+#roomFormUpdate BUTTON:hover,
+#mobile-room-menu,
+#playlists-scroll LI.selected,
+#browser .music-type-dropdown SPAN:hover,
+#browser .text-button:hover,
+#browser .sidebar .create-playlist:hover,
+#browser .playlist_info A:hover,
+#browser .queue_info A:hover,
+#browser .display-error,
+#browser .import-playlist:hover,
+#player-controller .right,
+.container .control .cancel:hover,
+#d3vs-playlist-import-btn:hover{
+  background-color: rgb(204, 0, 102) !important;
+}
+.player_header SPAN:hover,
+.eta_tooltip,
+.edit-btn:hover,
+#metamod-btn:hover{
+  background-color: rgba(204, 0, 102, 0.80) !Important;
+}
+#autocomplete-preview LI:hover,
+#autocomplete-preview LI.selected,
+#browser .content-videos LI.selected{
+  background-color: rgba(204, 0, 102, 0.70) !Important;
+}
+
+#new-messages-counter,
+.message-counter,
+.message-item.new-message:before,
+.close-browser,
+.display-sidebar,
+#browser .display-success,
+.create-playlist-form .icon-createplaylist,
+.create-playlist-input .icon-add,
+.ui-slider-range-min,
+.add-to-playlist-button.grabbed,
+.play-song-link .queue-info,
+.progressBg,
+.playerPreview .progress,
+.container .control DIV:hover{
+  background-color: rgb(218, 77, 180) !important;
+}
+.player_header SPAN.active{
+  background-color: rgba(218, 77, 180, 0.80) !important;
+}
+.loading-el-wrapper svg.uil-spin circle[fill="#00ffff"]{
+  fill: rgb(218, 77, 180) !important;
+}
+
+#roomFormUpdate BUTTON.cancel:hover,
+.ui-slider-handle[style="left: 0%;"],
+.player_header SPAN.skip-el:hover,
+A.dubdown.voted,
+.mods-controller-container .skip-el:hover,
+#browser .text-button.clear-queue:hover,
+.edit-btn.cancelUsername:hover{
+  background-color: rgb(255, 45, 49) !important;
+}
+
+  /* Images & gradients */
+#main-loading{
+  background-image: linear-gradient(to bottom,
+                                    transparent 66px,
+                                    rgb(204, 0, 102) 66px,
+                                    rgb(204, 0, 102) 100%) !important;
+}
+
+.room-item{
+  background-image: linear-gradient(to top,
+                                    rgba(102, 0, 51, 0.80) 36px,
+                                    rgba(166, 29, 98, 0.80) 36px,
+                                    rgba(166, 29, 98, 0.80) 100%) !Important;
+}
+
+#main-menu-left,
+#main-menu-right{
+  background-image: linear-gradient(to top,
+                                    rgb(166, 29, 98) 58px,
+                                    rgba(166, 29, 98, 0.70) 58px,
+                                    rgba(166, 29, 98, 0.70) calc(100% - 56px),
+                                    rgb(166, 29, 98) calc(100% - 56px),
+                                    rgb(166, 29, 98) 100%) !Important;
+}
+
+/* Border settings */
+#warning{
+  border: 1px solid rgb(255, 45, 49) !important;
+}
+
+.room-search,
+#mobile-room-menu .player-button,
+.message-list LI,
+#browser .music-type-dropdown SPAN,
+#browser .playlist_info A{
+  border-color: rgb(131, 48, 120) !important;
+}
+#mobile-room-menu{
+  border-bottom: 1px solid rgb(131, 48, 120) !important;
+}
+
+.chat-option-buttons *,
+#addToPlaylistFloatContainer .playlist-list-action LI,
+#addToPlaylistFloatContainer #playlist-input,
+.chat_tools,
+.chat_tools SPAN:after,
+.pusher-chat-widget-input,
+#private-messages .message-header,
+#private-messages .input-container{
+  border-color: rgb(186, 25, 186) !important;
+}
+#user_popover,
+#addToPlaylistFloatContainer{
+  border: 1px solid rgb(186, 2586, 186) !important;
+}
+.chat-option-header,
+.hideImagesToggle,
+.chat-option-buttons-sound SPAN:first-child{
+  border-left: 1px solid rgb(186, 25, 186) !Important;
+}
+.chat-option-header,
+.clearChatToggle,
+.chat-option-buttons-sound SPAN:last-child,
+#user_popover .send-pm-message{
+  border-right: 1px solid rgb(186, 25, 186) !Important;
+}
+#user_popover A{
+  border-top: 1px solid rgb(186, 25, 186) !important;
+}
+#addToPlaylistFloatContainer .create-playlist-header{
+  border-bottom: 1px solid rgb(186, 25, 186) !important;
+}
+
+#new-message-input{
+  border-color: rgb(198, 77, 174) !important;
+}
+#d3vs-playlist-import-name,
+#d3vs-playlist-import-code{
+  border: 1px solid rgb(198, 77, 174) !important;
+}
+
+#user_popover .ban INPUT{
+  border-color: rgb(255, 204, 229) !important;
+}
+
+#user_popover .ban:hover INPUT{
+  border-color: rgb(255, 45, 49) !important;
+}
+
+#roomFormUpdate BUTTON{
+  border-radius: 21px !Important;
+}
+
+#warning BUTTON,
+.mods-controller-container .skip-el,
+SPAN.import-playlist.icon-inbox,
+#d3vs-playlist-import-btn{
+  border-radius: 20px !Important;
+}
+
+.edit-btn{
+  border-radius: 17px !Important;
+}
+
+.tinner{
+  border-radius: 16px !Important;
+}
+
+#new-message-input,
+.music-type-dropdown,
+#import-playlist-container DIV INPUT,
+#import-playlist-container SELECT,
+#d3vs-playlist-import-name,
+#d3vs-playlist-import-div TEXTAREA{
+  border-radius: 8px !important;
+}
+
+.browser-content-header INPUT{
+  border-radius: 8px 0px 0px 8px !Important;
+}
+
+.music-type-select{
+  border-radius: 0px 8px 8px 0px !Important;
+}
+
+#browser .music-type-dropdown SPAN:first-child{
+  border-radius: 8px 8px 0px 0px !Important;
+}
+
+#browser .music-type-dropdown SPAN:last-child{
+  border-radius: 0px 0px 8px 8px !Important;
+}
+  /* Faux-borders */
+#avatar-list LI.updub{
+  box-shadow: inset 0px 0px 0px 1px rgb(50, 60, 83) !Important;
+}
+
+#avatar-list LI.downdub{
+  box-shadow: inset 0px 0px 0px 1px rgb(255, 45, 49) !Important;
+}
+
+/* Position and sizing */
+#private-messages .search-results:before{
+  content: '';
+  width: 100%;
+  height: 198px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1 !Important;
+}
+
+.message-item.new-message:before{
+  width: 1px !Important;
+}
+
+.message-list-wrapper-inner{
+  height: calc(100% + 16px) !Important;
+}
+
+#browser .playlist_filter{
+  width: calc(100% - 46px) !Important;
+  position: relative !Important;
+  top: 1px !Important;
+}
+
+#addToPlaylistFloatContainer .icon-add{
+  top: 4px !Important;
+}
+
+.playerPreview .close{
+  top: 24px !important;
+  right: 24px !Important;
+  padding: 8px !Important;
+  padding-top: 6px !Important;
+}
+
+.playerPreview .controlContainer .buttons{
+  position: relative !Important;
+  top: 2px !Important;
+}
+
+.playerPreview .controlContainer{
+  bottom: -28px !Important;
+}
+
+.input-container{
+  padding-top: 7px !Important;
+  padding-bottom: 7px !Important;
+  padding-left: 0px !Important;
+  padding-right: 0px !Important;
+}
+
+#import-playlist-container DIV INPUT{
+  padding-left: 8px !Important;
+  padding-right: 8px !Important;
+}
+
+#private-messages #message-input{
+  padding-right: 16px !Important;
+}
+
+#user_popover .ban INPUT{
+  border-left: none !Important;
+  border-right: none !Important;
+  border-top: none !Important;
+  padding-left: 0px !Important;
+  padding-right: 0px !Important;
+  width: 38px !Important;
+}
+
+#d3vs-playlist-import-code{
+  margin-top: 7px !important;
+  margin-bottom: 5px !important;
+}
+
+#d3vs-playlist-import-btn{
+  padding-top: 5px !Important;
+  padding-bottom: 4px !Important;
+}
+
+/* Remove / Hide */
+.playerPreview .progressContainer,
+.playerPreview .volume-control{
+  border-color: transparent !Important;
+}
+
+#warning BUTTON,
+#roomFormUpdate *,
+#autocomplete-preview,
+#autocomplete-preview UL,
+#private-messages #message-input,
+.mods-controller-container .skip-el,
+#browser .content-videos LI,
+#browser .text-button,
+.edit-btn,
+#browser .actions A,
+.create-playlist INPUT,
+#import-playlist-container DIV INPUT,
+#d3vs-playlist-import-btn,
+.tinner{
+  border: none !important;
+}
+
+HEADER FIGURE,
+#private-messages FIGURE,
+.pictureContainer,
+.updatePictureGif,
+#user_popover FIGURE,
+#user_popover .ban INPUT{
+  border-radius: 0px !Important;
+}
+
+*{
+  outline-style: none !Important;
+}
+
+#main-loading,
+.loading-el,
+.room-item,
+.room-item .current-song,
+.modal-header,
+.modal-footer,
+#main-menu-left,
+#main-menu-right,
+.right_section,
+.message-header,
+.message-details,
+#main-message-list,
+#player-controller,
+#player-controller .left,
+#browser .browser-content-header,
+#browser .actions A,
+.close-import-playlist,
+#user_popover DIV,
+#user_popover .ban INPUT,
+#autocomplete-preview{
+  background-color: transparent !Important;
+}
+
+.for_content{
+  background-image: none !Important;
+  box-shadow: none !Important;
+}
+
+#main-loading .spinner,
+.chat-option-buttons i,
+.playerPreview:not(:hover) .close{
+  display: none !Important;
+}
