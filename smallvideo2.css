@@ -1,0 +1,37 @@
+/* COMPLEMENTARY FILE, should be imported into another .css file */
+
+@media screen and (min-width: 72em) { /* If not "phone mode" */
+    /* Main function */
+    #main-room .left_section { padding: 0; max-width: 32rem; margin-top: 0; }
+    #main-room .left_section  .main-player-wrapper { display: initial; }
+
+    /* Buttons fix */
+    #main-room .left_section #main_player .play-song-link {
+        width: 10rem;
+        font-size: .8rem;
+        padding: .75rem 1.5rem;
+        bottom: -3rem;
+    }
+    #main-room .left_section #main_player { padding-bottom: .5rem; }
+    #main-room .left_section #main_player .play-song-link .queue-info { padding-top: .1rem; }
+    #main-room .left_section #main_player .play-song-link i { position: relative; top: .125rem; }
+    #main-room .left_section #main_player .player_sharing span { font-size: 1.25rem; }
+    #main_player .player_header {
+        width: 73px;
+        top: 0 !important;
+        height: 286px;
+        left: -73px;
+    }
+    #main_player .player_header span {
+        float: left;
+        margin: .125rem 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        position: relative;
+        padding: .5rem 0 .5rem .5rem;
+        width: 73px;
+    }
+    #main_player .player_header span.edit-room { padding: 1px 0 0 4px; float: right; width: initial; }
+    #main_player .player_header span.edit-room i { position: initial; }
+    #main_player .player_header span.skip-el { position: absolute; bottom: 0; right: initial; float: left; }
+}
