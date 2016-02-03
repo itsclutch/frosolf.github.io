@@ -419,6 +419,15 @@ A.dubdown.voted,
 .edit-btn.cancelUsername:hover{
   background-color: rgb(255, 45, 49) !important;
 }
+#main_player .play-song-link-container .play-song-link-browser {
+  background: rgba(30, 41, 66, 0.90) 
+  }
+#main-room .left_section #main_player .play-song-link-container > div {
+padding: .7rem 1.5rem
+}
+#main_player .play-song-link-container .play-song-link-browser i{
+  color: rgb(238, 238,238)
+}
 
   /* Images & gradients */
 #main-loading{
