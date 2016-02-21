@@ -166,6 +166,9 @@ LI[class^='user'].deleted-message{
   top: -7px !Important;
   height: calc(100% + 22px) !important;
 }
+#main_player .player_sharing span {
+   margin-right: 1rem;
+}
 
   /* Emote height override */
 #chat .chat-me-command-joined{
