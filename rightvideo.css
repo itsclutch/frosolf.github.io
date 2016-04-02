@@ -3,3 +3,5 @@
     #main-room .left_section { left: initial; right: 450px; }
     #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
 }
+#main_player { padding-top: 1rem; 
+}
