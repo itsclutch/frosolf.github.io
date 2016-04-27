@@ -146,7 +146,7 @@ SPAN.import-playlist,
 .for_content_version{
   color: rgb(92, 135, 179) !important;
 }
-
+  /* Colors userlist */
 .creator .username,
 .creator .username:after,
 .co-owner .username,
