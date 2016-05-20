@@ -195,6 +195,10 @@ SPAN.import-playlist,
 .tinner A{
   color: rgb(180, 201, 222) !important;
 }
+#header-global .header-donate a {
+background-color: #00;
+border: 2px solid #00;
+}
 .chat-option-buttons *,
 .mods-controller-container .user-list *,
 #user_popover A,
