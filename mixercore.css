@@ -196,8 +196,8 @@ SPAN.import-playlist,
   color: rgb(180, 201, 222) !important;
 }
 #header-global .header-donate a {
-background-color: #00;
-border: 2px solid #00;
+background-color: rgba(0, 0, 0, 0.0);
+border: 2px solid rgba(0, 0, 0, 0.0);
 }
 .chat-option-buttons *,
 .mods-controller-container .user-list *,
