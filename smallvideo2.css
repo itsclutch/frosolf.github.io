@@ -18,7 +18,7 @@
     #main-room .left_section #main_player .player_sharing span { font-size: 1.25rem; }
     #main_player .player_header {
         width: 73px;
-        top: 0 !important;
+        top: 0.9rem !important;
         height: 286px;
         left: -73px;
     }
