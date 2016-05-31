@@ -59,8 +59,8 @@
       text-shadow: 0px 0px 0px #d22;
   }
 }
-   /* Frosolf */
-@keyframes Frosolf{
+   /*  */
+@keyframes {
   0%{
       text-shadow: 0px 0px 0px #d22;
   }
@@ -115,14 +115,14 @@ LI.user-560338dfb585d003001b2b09 .username,
   color: rgba(92, 135, 179, 0.50) !Important;
 }
  /* Frosolf */
-LI.user-56698980850a4b130025abcc .username,
-#avatar-list LI.user-56698980850a4b130025abcc .username{
-  animation: 6.3s Frosolf !important;
+,
+#avatar-list {
+  animation: 6.3s  !important;
   animation-iteration-count: infinite !Important;
 }
-LI.user-56698980850a4b130025abcc .username,
-#avatar-list LI.user-56698980850a4b130025abcc .username,
-#avatar-list LI.user-56698980850a4b130025abcc .username:after{
+,
+#avatar-list ,
+#avatar-list :after{
   color: rgba(92, 135, 179, 0.50) !Important;
 }
 
