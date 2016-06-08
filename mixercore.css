@@ -118,6 +118,10 @@ SPAN.import-playlist,
 {
   color: rgb(238, 238, 238) !important;
 }
+#chat .chat-container .chat-messages .chat-main li.mod .user-role, 
+#chat .chat-container .chat-messages .chat-main li.mod .username {
+	color: #3083FF;
+}
   /* Colour for DubX button */
 .header-right-navigation .for IMG{
   filter: brightness(93.33%) !Important;
