@@ -157,11 +157,19 @@ SPAN.import-playlist,
 .co-owner .username:after{
   color: rgb(107, 160, 214) !Important;
 }
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role, 
+#chat .chat-container .chat-messages .chat-main li.co-owner .username, 
+#chat .chat-container .chat-messages .chat-main li.creator .user-role, 
+#chat .chat-container .chat-messages .chat-main li.creator .username,
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role, 
 #main_avatar_room #main-user-list-room #avatar-list li.co-owner .username, 
 #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role, 
 #main_avatar_room #main-user-list-room #avatar-list li.creator .username {
 	color: #FF007F;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role, 
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username {
+	color: #29A3A3;
 }
 
 .room-item HEADER .name,
