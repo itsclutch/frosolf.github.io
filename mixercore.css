@@ -131,7 +131,10 @@ SPAN.import-playlist,
 .create-playlist-input .icon-add{
   color: rgb(0, 0, 0) !important;
 }
-
+#main_avatar_room #main-user-list-room #avatar-list .user-pikachu p.username
+{
+    color: #3083FF !important;
+}
 .room-item .room-user,
 .message-header A,
 .message-list LI H3,
