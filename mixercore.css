@@ -141,7 +141,6 @@ SPAN.import-playlist,
 .isResdient-dj .username,
 .resident-dj .username,
 .resident-dj .username:after,
-.manager .username,
 .isManager .username,
 .manager .username:after,
 .mod .username,
@@ -157,6 +156,12 @@ SPAN.import-playlist,
 .isCo-owner .username,
 .co-owner .username:after{
   color: rgb(107, 160, 214) !Important;
+}
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role, 
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username, 
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role, 
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username {
+	color: #FF007F;
 }
 
 .room-item HEADER .name,
