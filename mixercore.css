@@ -267,11 +267,6 @@ A.dubdown:hover SPAN,
   color: rgb(255, 45, 49) !important;
 }
 
-.admin .username,
-.admin .username:after{
-  color: rgb(0, 255, 255) !important;
-}
-
 .autolink{
   color: rgb(0, 155, 255) !important;
 }
