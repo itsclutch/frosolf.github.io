@@ -1,0 +1,95 @@
+/* Hide the Ranking in the Room users list of resident-dj */
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj p.username:after {
+	content:""!important;
+}
+
+/* Hide the Ranking in the Room users list of mods */
+#main_avatar_room #main-user-list-room #avatar-list li.mod p.username:after {
+	content:""!important;
+}
+
+/* Hide the Ranking in the Room users list of currentDJ */
+#main_avatar_room #main-user-list-room #avatar-list li.currentDJ p.username:after {
+	content:""!important;
+	display:none;
+}
+
+/* Hide the Ranking in the Room users list of admins */
+#main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after {
+	content:""!important;
+	display:none;
+}
+
+/* Hide the Ranking in the Room users list of managers */
+#main_avatar_room #main-user-list-room #avatar-list li.manager p.username:after {
+	content:""!important;
+}
+
+/* Hide the icons in the Room users list of all rankins/users */
+#main_avatar_room #main-user-list-room #avatar-list li .user-role-icon {
+	display:none !important;
+}
+
+/* Change color of MOD rank in Room users list */
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role, #main_avatar_room #main-user-list-room #avatar-list li.mod .username {
+    color: #3083FF;
+    font-weight: bold;
+}
+
+/* Change color of MOD rank when hover over the name */
+#chat .chat-container .chat-messages .chat-main li.mod .user-role, #chat .chat-container .chat-messages .chat-main li.mod .username {
+    color: #3083DA;
+}
+
+/* Change color of RDJ rank in Room users list */
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
+    color: #33CCFF;
+    /* font-weight: bold; */
+}
+
+/* Change color of RDJ rank when hover over the name */
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role, #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
+    color: #33CCF1;
+}
+
+/* Change color of MANAGER rank in Room users list */
+.manager .username {
+    color: #7fff32 !important;
+}
+
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role, #main_avatar_room #main-user-list-room #avatar-list li.manager .username {
+    color: #7fff32;
+}
+
+/* Change color of MANAGER rank when hover over the name */
+#chat .chat-container .chat-messages .chat-main li.manager .user-role, #chat .chat-container .chat-messages .chat-main li.manager .username {
+    color: #7fff32;
+}
+
+/* Change icon for manager */
+.manager span.user-role-icon {
+    background-image: url(https://failchon.github.io/LJR3TqF.png) !important;  failchon.github.io/LJR3TqF.png
+    display: inline-block !important;
+}
+
+/* Change color of CO OWNER rank in Room users list */
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role, #main_avatar_room #main-user-list-room #avatar-list li.co-owner .username, #main_avatar_room #main-user-list-room #avatar-list li.creator .user-role, #main_avatar_room #main-user-list-room #avatar-list li.creator .username {
+    color: #FF007F !important;
+}
+
+/* Change color of CO OWNER rank when hover over the name */
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role, #chat .chat-container .chat-messages .chat-main li.co-owner .username, #chat .chat-container .chat-messages .chat-main li.creator .user-role, #chat .chat-container .chat-messages .chat-main li.creator .username {
+    color: #FF007F;
+}
+
+
+/* Change color of DUBX VIP rank in Room users list */
+#main_avatar_room #avatar #main-user-list-room #avatar-list .user-pikachu p.username {
+    color: #3083FF !important;
+}
+
+/* Hide Dubx VIP rank */
+ul.avatar-list li.user-fi p.dubs:before, ul.avatar-list li.user-jinkx p.dubs:before, ul.avatar-list li.user-surreal p.dubs:before, ul.avatar-list li.user-pikachu p.dubs:before, ul.avatar-list li.user-law p.dubs:before {
+    display:none;
+}
+
