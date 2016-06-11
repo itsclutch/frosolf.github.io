@@ -32,24 +32,24 @@
 
 /* Change color of MOD rank in Room users list */
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role, #main_avatar_room #main-user-list-room #avatar-list li.mod .username {
-    color: #3083FF !important;
+    color: #3083FF;
     font-weight: bold;
 }
 
 /* Change color of MOD rank when hover over the name */
 #chat .chat-container .chat-messages .chat-main li.mod .user-role, #chat .chat-container .chat-messages .chat-main li.mod .username {
-    color: #3083DA !important;
+    color: #3083DA;
 }
 
 /* Change color of RDJ rank in Room users list */
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
-    color: #33CCFF !important;
+    color: #33CCFF;
     /* font-weight: bold; */
 }
 
 /* Change color of RDJ rank when hover over the name */
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role, #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
-    color: #33CCF1 !important;
+    color: #33CCF1;
 }
 
 /* Change color of MANAGER rank in Room users list */
@@ -58,12 +58,12 @@
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role, #main_avatar_room #main-user-list-room #avatar-list li.manager .username {
-    color: #7fff32 !important;
+    color: #7fff32;
 }
 
 /* Change color of MANAGER rank when hover over the name */
 #chat .chat-container .chat-messages .chat-main li.manager .user-role, #chat .chat-container .chat-messages .chat-main li.manager .username {
-    color: #7fff32 !important;
+    color: #7fff32;
 }
 
 /* Change icon for manager */
@@ -92,4 +92,3 @@
 ul.avatar-list li.user-fi p.dubs:before, ul.avatar-list li.user-jinkx p.dubs:before, ul.avatar-list li.user-surreal p.dubs:before, ul.avatar-list li.user-pikachu p.dubs:before, ul.avatar-list li.user-law p.dubs:before {
     display:none;
 }
-
