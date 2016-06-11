@@ -114,7 +114,8 @@ SPAN.import-playlist,
 .container *,
 .tinner H1,
 .tinner H2,
-.tinner P
+.tinner P,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .place
 {
   color: rgb(238, 238, 238) !important;
 }
