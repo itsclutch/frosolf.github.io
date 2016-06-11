@@ -226,7 +226,7 @@ border: 2px solid rgba(0, 0, 0, 0.0);
 #addToPlaylistFloatContainer .playlist-list-action LI{
   color: rgba(180, 201, 222, 0.70) !important;
 }
-
+#chat .chat-container .chat-messages .chat-main li a.username,
 .room-info-display-container SPAN,
 #player-controller A.add-to-playlist-button:hover .icon-heart:before,
 #player-controller A.add-to-playlist-button:hover .grab-counter,
