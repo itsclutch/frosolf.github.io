@@ -79,7 +79,7 @@
 
 /* Change color of CO OWNER rank when hover over the name */
 #chat .chat-container .chat-messages .chat-main li.co-owner .user-role, #chat .chat-container .chat-messages .chat-main li.co-owner .username, #chat .chat-container .chat-messages .chat-main li.creator .user-role, #chat .chat-container .chat-messages .chat-main li.creator .username {
-    color: #FF007F;
+    color: #FF007F !important;
 }
 
 
