@@ -151,7 +151,7 @@ SPAN.import-playlist,
 .isMod .username,
 .mod .username:after,
 .for_content_version{
-  color: rgb(92, 135, 179) !important;
+  color: rgb(92, 135, 179);
 }
   /* Colors userlist */
 .creator .username,
