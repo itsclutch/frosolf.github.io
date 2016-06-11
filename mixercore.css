@@ -234,7 +234,7 @@ border: 2px solid rgba(0, 0, 0, 0.0);
 :not(.creator):not.(.resident-dj):not(.co-owner):not(.manager):not(.mod).currentDJ .username:after,
 .dj P:after,
 .username{
-  color: rgb(74, 108, 143);
+  color: rgb(74, 108, 143) !important;
 }
 
 A.dubup:hover SPAN{
