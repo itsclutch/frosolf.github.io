@@ -44,7 +44,6 @@
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role, 
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
     color: #33CCFF !important;
-    font-weight: bold;
 }
 
 /* Change color of RDJ rank when hover over the name */
