@@ -32,8 +32,7 @@
 
 /* Change color of MOD rank in Room users list */
 #main_avatar_room #main-user-list-room #avatar-list li.mod .user-role, #main_avatar_room #main-user-list-room #avatar-list li.mod .username {
-    color: #3083FF;
-    font-weight: bold;
+    color: #3083FF !important;
 }
 
 /* Change color of MOD rank when hover over the name */
@@ -42,9 +41,10 @@
 }
 
 /* Change color of RDJ rank in Room users list */
-#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role, #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role, 
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
     color: #33CCFF;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 /* Change color of RDJ rank when hover over the name */
@@ -58,7 +58,7 @@
 }
 
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role, #main_avatar_room #main-user-list-room #avatar-list li.manager .username {
-    color: #7fff32;
+    color: #7fff32 !important;
 }
 
 /* Change color of MANAGER rank when hover over the name */
