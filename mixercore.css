@@ -121,7 +121,7 @@ SPAN.import-playlist,
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role, 
 #chat .chat-container .chat-messages .chat-main li.mod .username {
-	color: #3083FF !important;
+	color: #3083FF ;
 }
   /* Colour for DubX button */
 .header-right-navigation .for IMG{
@@ -234,7 +234,7 @@ border: 2px solid rgba(0, 0, 0, 0.0);
 :not(.creator):not(.co-owner):not(.manager):not(.mod).currentDJ .username:after,
 .dj P:after,
 .username{
-  color: rgb(74, 108, 143) !important;
+  color: rgb(74, 108, 143);
 }
 
 A.dubup:hover SPAN{
