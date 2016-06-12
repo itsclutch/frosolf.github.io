@@ -173,7 +173,7 @@ SPAN.import-playlist,
 }
 #main_avatar_room #main-user-list-room #avatar-list li.vip .user-role, 
 #main_avatar_room #main-user-list-room #avatar-list li.vip .username {
-	color: #29A3A3;
+	color: #29A3A3 !important;
 }
 
 .room-item HEADER .name,
