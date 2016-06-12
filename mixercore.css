@@ -119,6 +119,9 @@ SPAN.import-playlist,
 {
   color: rgb(238, 238, 238) !important;
 }
+#main_avatar_room #main-user-list-room #avatar-list li p {
+	color: rgb(74, 108, 143) !important;
+}
 #chat .chat-container .chat-messages .chat-main li.mod .user-role, 
 #chat .chat-container .chat-messages .chat-main li.mod .username {
 	color: #3083FF ;
