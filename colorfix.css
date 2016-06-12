@@ -83,9 +83,13 @@
 }
 
 /* Change color of ADMIN rank in userlist */
+#chat .chat-container .chat-messages .chat-main li.admin .user-role, 
+#chat .chat-container .chat-messages .chat-main li.admin .username, 
+#main_avatar_room #main-user-list-room #avatar-list li.admin .user-role, 
 #main_avatar_room #main-user-list-room #avatar-list li.admin .username {
-    color: #ff7e00 !important;
+	color: #ff7e00 !important;
 }
+
 /* Change color of DUBX VIP rank in Room users list */
 #main_avatar_room #avatar #main-user-list-room #avatar-list .user-pikachu p.username {
     color: #3083FF !important;
