@@ -121,7 +121,7 @@ SPAN.import-playlist,
 }
 #chat .chat-container .chat-messages .chat-main li.mod .user-role, 
 #chat .chat-container .chat-messages .chat-main li.mod .username {
-	color: #3083FF;
+	color: #3083FF !important;
 }
   /* Colour for DubX button */
 .header-right-navigation .for IMG{
