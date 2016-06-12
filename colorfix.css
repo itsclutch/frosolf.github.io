@@ -15,6 +15,7 @@
 }
 
 /* Hide the Ranking in the Room users list of admins */
+#chat .chat-container ul.chat-main li.user-52c8efcf37e22b0200000008 .activity-row .text p a.username::before,
 #main_avatar_room #main-user-list-room #avatar-list li.admin p.username:after {
 	content:""!important;
 	display:none;
