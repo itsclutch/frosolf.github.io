@@ -82,7 +82,10 @@
     color: #FF007F !important;
 }
 
-
+/* Change color of ADMIN rank in userlist */
+#main_avatar_room #main-user-list-room #avatar-list li.admin .username {
+    color: #ff7e00 !important;
+}
 /* Change color of DUBX VIP rank in Room users list */
 #main_avatar_room #avatar #main-user-list-room #avatar-list .user-pikachu p.username {
     color: #3083FF !important;
