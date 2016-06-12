@@ -43,13 +43,13 @@
 /* Change color of RDJ rank in Room users list */
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role, 
 #main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username {
-    color: #33CCFF;
+    color: #33CCFF !important;
     font-weight: bold;
 }
 
 /* Change color of RDJ rank when hover over the name */
 #chat .chat-container .chat-messages .chat-main li.resident-dj .user-role, #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
-    color: #33CCF1;
+    color: #33CCF1 !important;
 }
 
 /* Change color of MANAGER rank in Room users list */
