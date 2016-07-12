@@ -39,12 +39,8 @@
   border-bottom: 16px solid rgba(30, 41, 66, 0.80) !important;
 }
     /* Background hack for options */
-.chat-options{
-  background-image: linear-gradient(to bottom,
-                                    transparent 240px,
-                                    rgba(30, 41, 66, 0.80) 240px,
-                                    rgba(30, 41, 66, 0.80) 100%) !Important;
-}
+.chat-options {
+    background-image: linear-gradient(to bottom, transparent 50px, rgba(30, 41, 66, 0.80) 50px, rgba(30, 41, 66, 0.80) 100%) !Important;
 
 /* Positioning and sizing */
 #chat .chat-welcome-message,
