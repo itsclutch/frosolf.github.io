@@ -19,3 +19,6 @@
 }
 #main_player { padding-top: 1rem; 
 }
+#main_player .player_header span.skip-el {
+    left: 0 !important;
+}
