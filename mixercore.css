@@ -527,7 +527,7 @@ padding: .7rem 1.5rem
   border-right: 1px solid rgb(29, 69, 110) !Important;
 }
 #user_popover A{
-  border-top: 1px solid rgb(29, 69, 110) !important;
+  border-top: 2px solid rgb(238, 238, 238) !important;
 }
 #addToPlaylistFloatContainer .create-playlist-header{
   border-bottom: 1px solid rgb(29, 69, 110) !important;
