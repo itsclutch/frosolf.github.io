@@ -296,6 +296,14 @@ A.dubdown:hover SPAN,
 
 /* Backgrounds */
   /* Colors */
+  	/* User pop-over */
+#user_popover .actions a,
+#user_popover .global-actions a {
+  background-color: #2C3952;
+}
+#user_popover .actions a select {
+  border-bottom: 1px solid #FFF;
+}
 .ui-slider-handle{
   background-color: rgb(238, 238, 238) !important;
 }
