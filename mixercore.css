@@ -243,7 +243,9 @@ border: 2px solid rgba(0, 0, 0, 0.0);
 A.dubup:hover SPAN{
   color: rgb(50, 60, 83) !important;
 }
-
+#chat .chat-container .chat-messages .chat-main li .username {
+    color: rgb(74, 108, 143);
+}
 #chat .chat-system-loading,
 .timeago{
   color: rgb(29, 69, 110) !important;
