@@ -505,7 +505,7 @@ padding: .7rem 1.5rem
 }
 #user_popover,
 #addToPlaylistFloatContainer{
-  border: 1px solid rgb(29, 69, 110) !important;
+  border: 2px solid rgb(238, 238, 238) !important;
 }
 .chat-option-header,
 .hideImagesToggle,
