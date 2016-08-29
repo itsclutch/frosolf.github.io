@@ -64,7 +64,7 @@
 
 /* Change color of MANAGER rank when hover over the name */
 #chat .chat-container .chat-messages .chat-main li.manager .user-role, #chat .chat-container .chat-messages .chat-main li.manager .username {
-    color: #7fff32;
+    color: #7fff32 !important;
 }
 
 /* Change icon for manager */
