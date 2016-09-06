@@ -194,7 +194,6 @@ LI[class^='user'].deleted-message{
 LI.deleted-message{
   padding-top: 0px !Important;
   padding-bottom: 0px !Important;
-  line-height: 0px !Important;
 }
 
   /* Undoing DubX defaults */
