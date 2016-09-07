@@ -235,8 +235,7 @@ border: 2px solid rgba(0, 0, 0, 0.0);
 #player-controller A.add-to-playlist-button:hover .grab-counter,
 .content-videos .actions .add_to_playlist:hover .icon-heart:before,
 :not(.creator):not(.co-owner):not(.manager):not(.mod).currentDJ .username:after,
-.dj P:after,
-.username{
+.dj P:after{
   color: rgb(74, 108, 143);
 }
 
