@@ -217,3 +217,6 @@ LI.deleted-message{
 .deleted-message .timeago{
   display: none !Important;
 }
+#chat .chat-container .chat-messages .chat-main {
+  overflow: visible !important;
+}
