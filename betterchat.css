@@ -142,7 +142,7 @@ LI[class^='user'].deleted-message{
   /* Gap removal */
 #chat .ps-container{
   top: -4px !Important;
-  height: calc(100% + 4px) !important;
+  height: 100% ;
 }
 
 #main_avatar_room{
