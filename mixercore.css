@@ -238,7 +238,10 @@ border: 2px solid rgba(0, 0, 0, 0.0);
 .dj P:after{
   color: rgb(74, 108, 143);
 }
-
+#player-controller .right ul li .add-to-playlist-button .icon-heart::before {
+    -webkit-text-stroke: 2px rgb(238, 238, 238) !important;
+    -webkit-text-fill-color: transparent;
+}
 A.dubup:hover SPAN{
   color: #b3e790 !important;
 }
