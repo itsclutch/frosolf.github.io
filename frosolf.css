@@ -38,3 +38,5 @@
 @import url("https://frosolf.github.io/usrprefs.css"); /* User-specific settings (Better chat improves some of this) */
   /* Special */
 
+/* Room size fix */ 
+#main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
